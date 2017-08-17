@@ -37,6 +37,6 @@ var list = document.getElementById('js-list'),
 add.addEventListener('click', function(e) {
     var element = document.createElement('li');
     var countLi = document.getElementsByTagName('li').length;
-    element.innerHTML = 'item' + countLi;
+    element.innerHTML = 'item ' + countLi;
     list.appendChild(element);
 });
